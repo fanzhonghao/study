@@ -175,7 +175,8 @@ Device driver: The software that talks to a controller, giving it commands and a
 > 读数和写数操作保证是不可分割的。  
 > 执行TSL指令的CPU将锁住内存总线，以禁止其他CPU在本指令结束之前访问内存。  
 
-<b>Busy waiting(忙等待):</b> Continuously testing a variable until some value appears  
+<b>Busy waiting(忙等待):</b>  
+Continuously testing a variable until some value appears   
 
 <b>P(down)操作：</b>  
 > 检查信号量的值是否大于0  
@@ -185,7 +186,7 @@ Device driver: The software that talks to a controller, giving it commands and a
 
 <b>V(up)操作：</b>  
 > 对信号量的值增1  
-> 如果一个或多个进程在该信号量上休眠，无法完成一个先前的down操作，则由系统选择其中一个并允许该进程完> 成它的down操作。  
+> 如果一个或多个进程在该信号量上休眠，无法完成一个先前的down操作，则由系统选择其中一个并允许该进程完  > 成它的down操作。  
 
 
 A<b> monitor（管程） </b>is a collection of procedures, variables, and data structures that are all grouped together in a special kind of module or package.  
@@ -210,7 +211,7 @@ The <b>short-term scheduler</b> selects the process to get the processor from am
 >Given  
 > m periodic events（周期性事件）  
 > event i occurs within period Pi and requires Ci seconds  
-> Then the load can only be handled if
+> Then the load can only be handled if  
 > <img src = "img/6.png">  
 
 <b>Possible scheduling of user-level threads</b>  
@@ -229,16 +230,16 @@ The <b>short-term scheduler</b> selects the process to get the processor from am
 A set of processes is deadlocked if each process in the set is waiting for an event that only another process in the set can cause.  
 
 <b>Four Conditions for Deadlock</b>  
-1. Mutual exclusion condition（互斥条件）
+1. Mutual exclusion condition（互斥条件）  
 > each resource assigned to 1 process or is available
 
-2. Hold and wait condition（占有和等待条件）
+2. Hold and wait condition（占有和等待条件）  
 > process holding resources can request additional
 
-3. No preemption condition（不可抢占条件）
+3. No preemption condition（不可抢占条件）  
 > previously granted resources cannot forcibly taken away
 
-4. Circular wait condition（环路等待条件）
+4. Circular wait condition（环路等待条件）  
 > must be a circular chain of 2 or more processes  
 > each is waiting for resource held by next member of the chain  
 
@@ -272,7 +273,7 @@ best fit(最佳适配)
 > 搜索整个链表，找出恰好够用的最小的空闲区。
 
 next fit（下次适配）  
-> 每次找到合适的空闲区时，都记录当时的位置，以便在下次寻找空闲区时从上次结束的地方开始，而不是每次从> 头开始。
+> 每次找到合适的空闲区时，都记录当时的位置，以便在下次寻找空闲区时从上次结束的地方开始，而不是每次从头开始。
 
 quick fit（快速适配）  
 > maintains separate lists for some of the more common sizes required
@@ -300,6 +301,7 @@ Hard miss: page referenced is not in memory
 两级页表：  
 <img src = "img/11.png">  
 多级页表中，顶级页表（Top level page table）的表项0指向程序正文的页表，表项1指向数据的页表，表项1023指向堆栈的页表。  
+<img src = "img/25.png"/>  
 顶级页表中的每个表项表示4MB的虚拟地址空间。  
 
 当一个虚拟地址被送到MMU时，MMU首先提取PT1域并把这个值作为访问顶级页表（Top-level page table）的索引。  
@@ -333,7 +335,7 @@ R bit is 1, the bit is cleared, the page is put onto the end of the list of page
 第二次机会页面置换算法就是寻找在上一个时钟间隔以前没有被访问过的页面。  
 
 <b>LRU(Least Recently Used)</b>  
-When a page fault occurs, throw out the page that has been unused for the longest time  
+> When a page fault occurs, throw out the page that has been unused for the longest time  
 
 进程的工作集可以定义为在过去的τ秒实际时间中进程实际访问的页面集合。  
 
