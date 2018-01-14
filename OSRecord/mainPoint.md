@@ -207,6 +207,12 @@ A<b> monitor（管程） </b>is a collection of procedures, variables, and data 
 The <b>long-term scheduler</b> selects processes from this process pool（进程池） and loads selected processes into memory for execution. （作业调度）  
 The <b>short-term scheduler</b> selects the process to get the processor from among the processes which are already in memory. （CPU调度）  
 
+<b>Scheduling in Batch Systems</b>  
+> First-come first-served(FCFS)（先来先服务）  
+Shortest job first(SJF)（短作业优先）  
+Shortest remaining Time First(SRTF)（最短剩余时间优先）  
+
+
 <b>Schedulable real-time system:  </b>  
 >Given  
 > m periodic events（周期性事件）  
