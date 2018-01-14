@@ -186,7 +186,9 @@ Continuously testing a variable until some value appears
 
 <b>V(up)操作：</b>  
 > 对信号量的值增1  
-> 如果一个或多个进程在该信号量上休眠，无法完成一个先前的down操作，则由系统选择其中一个并允许该进程完  > 成它的down操作。  
+> 如果一个或多个进程在该信号量上休眠，无法完成一个先前的down操作，则由系统选择其中一个并允许该进程完
+>  
+> 成它的down操作。  
 
 
 A<b> monitor（管程） </b>is a collection of procedures, variables, and data structures that are all grouped together in a special kind of module or package.  
@@ -214,8 +216,7 @@ Shortest remaining Time First(SRTF)（最短剩余时间优先）
 
 
 <b>Schedulable real-time system:  </b>  
->Given  
-> m periodic events（周期性事件）  
+> Given m periodic events（周期性事件）  
 > event i occurs within period Pi and requires Ci seconds  
 > Then the load can only be handled if  
 > <img src = "img/6.png">  
@@ -348,7 +349,7 @@ R bit is 1, the bit is cleared, the page is put onto the end of the list of page
 <b>页面置换算法比较</b>  
 <img src = "img/12.png"/>  
 
-pages are fixed size and segments are not.  
+pages are fixed size while segments are not.  
 
 <b>Regular files（普通文件）</b>  
 contain user information  
@@ -372,12 +373,13 @@ such a table in main memory is called a <b>FAT(File Allocation Table).</b>
 
 The main function of the directory system is to map the ASCII name of file onto the information needed to locate the data.  
 
-A directory consists of a list of fixed-size entries, one per file, containing a fixed-length file name, a structure of the file attributes and one or more disk addresses.And store file attributes in the i-nodes.  
+
+<b>A directory consists of a list of fixed-size entries, one per file, containing a fixed-length file name, a structure of the file attributes and one or more disk addresses.And store file attributes in the i-nodes.</b>  
 <img src = "img/14.png"/>  
 <img src = "img/15.png"/>    
 
 <b>Operations required to remove a file in UNIX</b>  
-Remove the file from its directory.  
+> Remove the file from its directory.  
 Release the i-node to the pool of free i-nodes.  
 Return all the disk blocks to the pool of free disk blocks.  
 
