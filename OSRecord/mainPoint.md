@@ -393,6 +393,11 @@ There are three fundamentally different ways that I/O can be performed.
 2.Interrupt-driven I/O  
 3.I/O using DMA  
 
+<b>程序控制I/O和中断驱动I/O比较</b>  
+> 程序控制I/O让CPU做全部的工作。CPU通过程序主动读取状态寄存器以了解接口情况，并完成相应的数据操作。  
+> 中断驱动I/O在等待设备就绪的时候允许CPU做其他的事情，当程序常规运行时，若外部有有优先级更高的事件出现，则通过中断请求通知CPU，CPU再读取状态寄存器确定事件的种类，执行不同的分支处理。  
+
+
 <b>Layers of the I/O Software </b>  
 <img src = "img/16.png"/>  
 
@@ -403,8 +408,7 @@ The final step is preparing a disk for use is to perform a high-level format of 
 partition table（分区表）- gives the starting sector and size of each partition.  
 <b>On the Pentium and most other computers, sector 0 contains the master boot record（主引导记录）.</b>  
 
-<b>Disk Arm Scheduling Algorithm</b>
-	
+<b>Disk Arm Scheduling Algorithm</b>  
 > First Come First Serve(FCFS)  
 按照输入/输出请求到达的顺序，逐一完成访问请求。  
 > Shortest Seek First (SSF)  
@@ -506,11 +510,72 @@ r = 4，w = 2，x = 1
 <b>grep:</b> selects lines containing the given word(2.1.5)  
 
 
-
-
-
-
-
 ## 例题
 <b>For each of the following decimal virtual addresses, compute the virtual page number and offset for a 4KB page and an 8KB page: 20000，32768，60000。</b>  
-> <img src = "img/10.png">
+> <img src = "img/10.png">  
+
+<b>P326 15. Consider the i-node shown in Fig. 4-13. If it contains 10 direct addresses of 4 bytes each and all disk blocks are 1024B, what is the largest possible file?</b>  
+<img src = "img/26.png"/>  
+> 解：10个直接块，1个一次间接块。  
+1个一次间接块中能包含的磁盘块号为1024B/4B = 256  
+可能的最大文件为：(256+ 10) * 1024B = 266KB  
+
+<b>P428 11. In which of the four I/O software layers is each of the following done.</b>  
+1.Computing the track, sector and head for a disk read.  
+> Device drivers  
+
+2.Writing commands to the device registers  
+> Device drivers  
+
+3.Checking to see if the user is permitted to use the device  
+> Device-independent software  
+
+4.Converting binary integers to ASCII for printing  
+> User space software  
+
+<b>Program accesses memory in a uniform manner.  
+Program accesses a relatively small portion of the address space at any instant(立即) of time.  
+Parallel System include Symmetric(对称) multiprocessing and ssymmertric multiprocessing.  
+Address binging of instructions and data to memory addresses can happen at three different stages,Compile time,Load time and executing time.  
+FOur Conditions for Deadlock: mutual exclusion,Hold and wait,No preemption and circular wait.  
+In linux,the file metadata(元数据) is stored in i-node.  
+</b>  
+
+<b>死锁恢复,死锁避免,死锁预防的方法是什么?</b>  
+1.利用抢占恢复  
+2.利用回滚恢复  
+3.通过杀死进程恢复  
+不需要先采用各种限制措施去破坏产生死锁的必要条件,而是在资源的动态分配中,用某种方式去防止系统进入不安全状态,从而避免发生死锁.  
+破坏四个条件中的一个或者几个来防止死锁发生.  
+> 4条件:mutual exclusion(互斥),hold and wait(占有和等待),no preemption(不可抢占),circular wait(循环等待).  
+
+
+
+## 重要概念
+<ul>
+<li>操作系统的主要功能是为应用程序的运行创建良好的环境，为达到这个目的，内核提供一系列的具备预订功能的多内核函数，通过一组称为系统调用的接口呈现给用户。系统调用把应用程序的请求传给内核，调用相应的内核函数完成所需的处理，将结果返回给应用程序，如果没有系统调用和内核函数，用户将不能编写大型应用程序。</li>  
+<li>管程是一个由过程、变量和数据结构等组成的一个集合，它们组成一个特殊的模块或软件包。进程可在任何需要的时候调用管程中的过程，但它们不能在管程之外声明的过程中访问管程内的数据结构.任一时刻管程只能有一个活跃进程,这一特性使管程能有效的完成互斥.</li>  
+<li>TLB即Translation Lookaside Buffer(转换检测缓冲区),是一个小型的硬件设备将虚拟地址直接映射到物理地址,每个表项记录了一个页面的相关信息,包括虚拟页号,页面的修改位,保护码(读/写/执行权限)和该页所对应的物理页框.它是一个内存管理单元用于改进虚拟地址到物理地址转换速度的缓存.</li>  
+<li><b>进程与线程:</b>  
+进程是一个正在执行的程序实例.  
+线程是"进程"中某个单一顺序的控制流(一个进程中正在执行的代码片段).  
+进程和线程的主要差别在于它们是不同的操作系统资源管理方式.进程有独立的地址空间,一个进程崩溃后,在保护模式下不会对其他进程产生影响,而线程只是一个进程中的不同执行路径.线程有自己的堆栈和局部变量,但线程之间没有单独的地址空间,一个线程死掉就等于整个进程死掉,所以多进程的程序要比多线程的程序健壮,但在进程切换时,耗费的资源较大,效率较差一些.但对于一些要求同时进行并且又要共享某些变量的并发操作,只能用线程,不能用进程.</li>  
+<li>多个进程或线程读写某些共享数据时,最后的结构取决于进程运行的精确时序,称为<b>竞争条件</b>.每个进程中访问临界资源的那段代码成为<b>临界区</b>.</li>  
+
+
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
