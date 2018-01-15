@@ -186,9 +186,7 @@ Continuously testing a variable until some value appears
 
 <b>V(up)操作：</b>  
 > 对信号量的值增1  
-> 如果一个或多个进程在该信号量上休眠，无法完成一个先前的down操作，则由系统选择其中一个并允许该进程完
->  
-> 成它的down操作。  
+> 如果一个或多个进程在该信号量上休眠，无法完成一个先前的down操作，则由系统选择其中一个并允许该进程完  > 成它的down操作。  
 
 
 A<b> monitor（管程） </b>is a collection of procedures, variables, and data structures that are all grouped together in a special kind of module or package.  
@@ -216,7 +214,8 @@ Shortest remaining Time First(SRTF)（最短剩余时间优先）
 
 
 <b>Schedulable real-time system:  </b>  
-> Given m periodic events（周期性事件）  
+>Given  
+> m periodic events（周期性事件）  
 > event i occurs within period Pi and requires Ci seconds  
 > Then the load can only be handled if  
 > <img src = "img/6.png">  
@@ -349,7 +348,7 @@ R bit is 1, the bit is cleared, the page is put onto the end of the list of page
 <b>页面置换算法比较</b>  
 <img src = "img/12.png"/>  
 
-pages are fixed size while segments are not.  
+pages are fixed size and segments are not.  
 
 <b>Regular files（普通文件）</b>  
 contain user information  
@@ -373,13 +372,12 @@ such a table in main memory is called a <b>FAT(File Allocation Table).</b>
 
 The main function of the directory system is to map the ASCII name of file onto the information needed to locate the data.  
 
-
-<b>A directory consists of a list of fixed-size entries, one per file, containing a fixed-length file name, a structure of the file attributes and one or more disk addresses.And store file attributes in the i-nodes.</b>  
+A directory consists of a list of fixed-size entries, one per file, containing a fixed-length file name, a structure of the file attributes and one or more disk addresses.And store file attributes in the i-nodes.  
 <img src = "img/14.png"/>  
 <img src = "img/15.png"/>    
 
 <b>Operations required to remove a file in UNIX</b>  
-> Remove the file from its directory.  
+Remove the file from its directory.  
 Release the i-node to the pool of free i-nodes.  
 Return all the disk blocks to the pool of free disk blocks.  
 
@@ -395,15 +393,19 @@ There are three fundamentally different ways that I/O can be performed.
 2.Interrupt-driven I/O  
 3.I/O using DMA  
 
-<b>程序控制I/O和中断驱动I/O比较</b>  
-> 程序控制I/O让CPU做全部的工作。CPU通过程序主动读取状态寄存器以了解接口情况，并完成相应的数据操作。  
-> 中断驱动I/O在等待设备就绪的时候允许CPU做其他的事情，当程序常规运行时，若外部有有优先级更高的事件出现，则通过中断请求通知CPU，CPU再读取状态寄存器确定事件的种类，执行不同的分支处理。  
-
+<b>程序控制I/O和中断驱动I/O和DMA</b>  
+> 程序控制I/O让CPU做全部的工作.CPU通过程序主动读取状态寄存器以了解接口情况,并完成相应的数据操作.缺点是一直占用CPU,使CPU效率低下.  
+> 中断驱动I/O在等待设备就绪的时候允许CPU做其他的事情,当程序常规运行时,若外部有有优先级更高的事件出现,则通过中断请求通知CPU,CPU再读取状态寄存器确定事件的种类,执行不同的分支处理.缺点是中断发生在每个字符上.  
+> 让 DMA 控制器一次给打印机提供一个字符，不必打扰 CPU。将中断次数从打印每个字符一次变为打印每个缓冲区一次.  
 
 <b>Layers of the I/O Software </b>  
 <img src = "img/16.png"/>  
+<b>Layers of the I/O system and the main functions of each layer</b>  
+<img src = "img/30.png"/>  
 
 Before the disk can be used, each platter（盘片） must receive a low-level format done by software.  
+After lower-level format:  
+<img src = "img/31.png"/>  
 After low-level formatting is completed, the disk is partitioned（分区）.  
 The final step is preparing a disk for use is to perform a high-level format of each partition.  
 
@@ -429,6 +431,8 @@ wide-area distributed system
 > The virtual machine runs a guest operating system that thinks it is in kernel mode. (it is really in user mode)  
 This is called virtual kernel mode.  
 <img src = "img/17.png"/>  
+Type 1 Hypervisor本身就是一个操作系统,唯一一个运行在内核态的程序,工作是支持真实硬件的多个副本,
+也称为虚拟机,与普通操作系统支持的进程类似.  
 
 <b>Type 2 Hypervisors</b>  
 > Example: VMware  
@@ -476,6 +480,8 @@ a piece of code that replicates itself and dose some damage
 > Authentication using passwords  
 > Authentication using a physical object（使用实际物体验证）  
 > Authentication using biometrics（使用生物特征验证）  
+
+UNIX Password Security 将每一个口令同一个叫做盐（Salt）的 n 位随机数相关联.无论何时口令改变,这个随机数就改变.将口令和随机数连接起来,一同加密,加密后的结果存放进口令文件.  
 
 <b>Trap door(后门)</b> is created by code inserted into the system by a programmer to bypass some normal check.  
 Login Spoofing(登录欺骗).  
@@ -562,7 +568,7 @@ In linux,the file metadata(元数据) is stored in i-node.
 进程是一个正在执行的程序实例.  
 线程是"进程"中某个单一顺序的控制流(一个进程中正在执行的代码片段).  
 进程和线程的主要差别在于它们是不同的操作系统资源管理方式.进程有独立的地址空间,一个进程崩溃后,在保护模式下不会对其他进程产生影响,而线程只是一个进程中的不同执行路径.线程有自己的堆栈和局部变量,但线程之间没有单独的地址空间,一个线程死掉就等于整个进程死掉,所以多进程的程序要比多线程的程序健壮,但在进程切换时,耗费的资源较大,效率较差一些.但对于一些要求同时进行并且又要共享某些变量的并发操作,只能用线程,不能用进程.</li>  
-<li>多个进程或线程读写某些共享数据时,最后的结构取决于进程运行的精确时序,称为<b>竞争条件</b>.每个进程中访问临界资源的那段代码成为<b>临界区</b>.</li>  
+<li>多个进程或线程读写某些共享数据时,最后的结构取决于进程运行的精确时序,称为<b>竞争条件</b>.每个进程中访问临界资源的那段代码称为<b>临界区</b>.</li>  
 
 
 
