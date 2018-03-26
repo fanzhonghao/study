@@ -1,1 +1,0 @@
-## Review for operating system
