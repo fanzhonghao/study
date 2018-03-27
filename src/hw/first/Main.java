@@ -39,7 +39,7 @@ public class Main {
         }
         System.out.print(student.getNo() + " select ");
         Queue queue = student.getCourseQueue();
-        int queueSize = queue.size();
+        int queueSize = student.getCourseNum();
         Course course1;
         int bookNum;
         Queue bookQueue;

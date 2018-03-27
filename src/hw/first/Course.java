@@ -18,7 +18,7 @@ public class Course {
     private int numOfBooks;
     public Course(){}
     public Course(String name){
-        this.name = name;
+        this.setName(name);
         numOfBooks = 0;
         queue = new LinkedBlockingQueue();
     }
@@ -40,7 +40,10 @@ public class Course {
         queue.addAll(queue1);
         if (i == size)
             System.out.println("没有该书");
-        else System.out.println("该书已删除");
+        else {
+            numOfBooks--;
+            System.out.println("该书已删除");
+        }
     }
     public Queue getAllBook(){
         return queue;

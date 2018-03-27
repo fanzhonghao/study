@@ -21,19 +21,16 @@ public class Student {
         courseNum = 0;
     }
     public Student(int no){
-        this.no = no;
-        courseNum = 0;
+        this();
+        this.setNo(no);
     }
     public Student(int no,String name){
-        this.name = name;
-        this.no = no;
-        courseNum = 0;
+        this(no);
+        this.setName(name);
     }
     public Student(int no,String name,Queue queue){
-        this.name = name;
-        this.no = no;
+        this(no,name);
         this.courseQueue = queue;
-        courseNum = 0;
     }
 
     public String getName() {

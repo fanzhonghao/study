@@ -1,3 +1,30 @@
+# Java homework first
+<b>First:</b>  
+Create a class named `SumOfArgs` that will print out the sum of all integer arguments found on the command line.  
+example:  
+	
+	> java SumOfArgs 
+	0
+	> java SumOfArgs 10 9 8
+	27
+	> java SumOfArgs hello dave 1 2 3
+	6
+	> java SumOfArgs Hello World
+	0
+
+There uses SumOfArgs.java to implement it.  
+
+<b>Second:</b>  
+Create classes named `Book`, `Course` and `Student` to perform simple course-selecting system (CRS). Student has at least three overloaded constructors with different parameter list. Student may select one or more Course, and one Course also has some members of Book.  
+example:  
+	> java CRS 15131001 Java
+  	15131001 select Java with books Thinking in Java, Java 8
+  	
+	> java CRS 15131001 Java WebEngineering
+	15131001 select Java with books Thinking in Java, Java 8; and WebEngineering with Web Engineering. 
+
+There uses Book.java, Course.java, AllCourse.java, student.java and Main.java to implement it.  
+
 # Java文件中有包名的编译与执行
 首先说结果：  
 我们可以在任意位置编译目标文件，只要我们能够给出正确的文件地址。但是在执行.class文件时，我们必须给出的是文件的完整的名字。包括包名和文件名。  
