@@ -28,6 +28,7 @@ public class Student {
         this(no);
         this.setName(name);
     }
+
     public Student(int no,String name,Queue queue){
         this(no,name);
         this.courseQueue = queue;

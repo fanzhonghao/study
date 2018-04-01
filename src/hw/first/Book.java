@@ -15,7 +15,7 @@ public class Book {
 
     }
     public Book(String name){
-        this.name = name;
+        this.setName(name);
     }
     public String getName() {
         return name;

@@ -12,7 +12,7 @@ package hw.first;
  */
 public class SumOfArgs {
     public static void main(String[] args) {
-        int sum = 0;
+        long sum = 0;
         int num;
         for (int i = 0;i < args.length;i++){
             try {
