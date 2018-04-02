@@ -19,7 +19,7 @@ public class Main {
             System.out.println("缺少学生学号及课程名称");
             System.exit(-1);
         }else if (args.length < 2){
-            System.out.println("缺少课程名称");
+            System.out.println("学生未选课");
             System.exit(-1);
         }
         Student student = new Student(Integer.parseInt(args[0]));
