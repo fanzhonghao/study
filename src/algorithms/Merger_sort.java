@@ -18,13 +18,17 @@ import java.util.Random;
 public class Merger_sort {
     public static void main(String[] args) {
         Random r = new Random();
-        int[] a = new int[100];
-        for (int i = 0;i < 100;i++){
-            a[i] = r.nextInt(500);
+        int[] a = new int[10];
+        for (int i = 0;i < 10;i++){
+            a[i] = r.nextInt(50);
         }
-        new Merger_sort().merger_sort(a,0,99);
-        for (int i = 0;i < 100;i++){
-            if (i % 10 == 0) System.out.println();
+        System.out.println("排序前");
+        for (int i = 0;i < 10;i++){
+            System.out.print(a[i] + "\t");
+        }
+        new Merger_sort().merger_sort(a,0,9);
+        System.out.println("\n排序后");
+        for (int i = 0;i < 10;i++){
             System.out.print(a[i] + "\t");
         }
     }
@@ -57,7 +61,6 @@ public class Merger_sort {
         a1[n1] = 1000;//flag
         a2[n2] = 1000;//flag
         int t1 = 0,t2 = 0;
-        int num = max - min + 1;//原数组传入个数
         for (int i = min;i <= max;i++){
             a[i] = a1[t1] < a2[t2] ? a1[t1++] : a2[t2++];
         }
