@@ -19,7 +19,8 @@ public class PIMManager {
         String command;
         LinkedList<PIMEntity> linkedList = new LinkedList<>();
         while (true){
-            System.out.println("---Enter a command (suported commands are List Create Save Load Quit)---");
+            System.out.println("---Enter a command (suported commands are List Create Save Load Quit\n" +
+                    "   and getNotes getTodos getAppointments getContact getItemsForDate)---");
             command = in.next();
             executeCommand1 e = new executeCommand1(command);
             e.exe(linkedList);

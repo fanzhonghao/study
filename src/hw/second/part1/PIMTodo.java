@@ -28,8 +28,7 @@ public class PIMTodo extends PIMEntity {
                 try {
                     date = d.parse(a);
                 } catch (ParseException e) {
-                    System.out.println("时间格式转换错误");
-                    e.printStackTrace();
+                    date = new Date(a);
                 }
             }else if (array[i].matches("^data.*")){
                 setData(array[i].substring(5));
@@ -42,7 +41,7 @@ public class PIMTodo extends PIMEntity {
     @Override
     public String toString() {
         StringBuffer s = new StringBuffer();
-        s.append("Type: todo");
+        s.append("Type todo");
         s.append("##priority:" + getPriority());
         s.append("##date:" + getDate());
         s.append("##data:" + getData());

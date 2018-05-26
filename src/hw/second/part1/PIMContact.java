@@ -57,7 +57,7 @@ public class PIMContact extends PIMEntity {
     @Override
     public String toString() {
         StringBuffer s = new StringBuffer();
-        s.append("Type: contact");
+        s.append("Type contact");
         s.append("##priority:" + getPriority());
         s.append("##firstName:" + getFirstName());
         s.append("##lastName:" + getLastName());

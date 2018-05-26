@@ -1,7 +1,10 @@
 package hw.third;
 
+//import hw.second.part1.*;
+
 import hw.second.part1.PIMEntity;
 
+import java.lang.reflect.Array;
 import java.util.Collection;
 import java.util.Date;
 import java.util.Iterator;
@@ -17,8 +20,8 @@ import java.util.LinkedList;
  * -----------------------
  */
 public class PIMCollection implements Collection{
-    LinkedList<PIMEntity> list = new LinkedList<>();
-    int size;
+    private LinkedList<PIMEntity> list = new LinkedList<>();
+    private int size;
     @Override
     public int size() {
         return size;
@@ -42,7 +45,7 @@ public class PIMCollection implements Collection{
 
     @Override
     public Object[] toArray() {
-        Object[] result = new Object[size];
+        PIMEntity[] result = new PIMEntity[size];
         for (int i = 0;i < size;i++){
             result[i] = list.get(i);
         }
@@ -51,38 +54,80 @@ public class PIMCollection implements Collection{
 
     @Override
     public boolean add(Object o) {
-        return list.add((PIMEntity) o);
+        boolean flag = true;
+        try {
+            PIMEntity p = (PIMEntity) o;
+            list.add(p);
+            size++;
+        }catch (Exception e){
+            flag = false;
+        }
+        return flag;
     }
 
     @Override
     public boolean remove(Object o) {
-        return list.remove(o);
+        boolean flag = true;
+        try {
+            PIMEntity p = (PIMEntity) o;
+            list.remove(p);
+            size--;
+        }catch (Exception e){
+            flag = false;
+        }
+        return flag;
     }
 
     @Override
     public boolean addAll(Collection c) {
-        return list.addAll(c);
+        boolean flag = true;
+        Iterator iterator = c.iterator();
+        while (iterator.hasNext()){
+            try {
+                PIMEntity p = (PIMEntity) iterator.next();
+                list.add(p);
+                size++;
+            }catch (Exception e){
+                flag = false;
+            }
+        }
+        return flag;
     }
 
     @Override
     public void clear() {
         list.clear();
+        size = 0;
     }
 
     @Override
-    public boolean retainAll(Collection c) {//待看看是干什么的
-        return list.retainAll(c);
+    public boolean retainAll(Collection c) {//取交集
+        boolean flag = false;
+        Iterator iterator = list.iterator();
+        while (iterator.hasNext()){
+                PIMEntity p = (PIMEntity) iterator.next();
+                if (!c.contains(p)) {
+                    list.remove(p);
+                    size--;
+                    flag = true;
+                }
+        }
+        return flag;
     }
 
     @Override
     public boolean removeAll(Collection c) {
-        boolean flag = false;
+        boolean flag = true;
         Iterator iterator = c.iterator();
-        while (iterator.hasNext())
-        {
-            list.remove(iterator.next());
-            flag = true;
+        while (iterator.hasNext()){
+            try {
+                PIMEntity p = (PIMEntity) iterator.next();
+                if (list.contains(p)) list.remove(p);
+            }catch (Exception e){
+                flag = false;
+            }
         }
+        size = 0;
         return flag;
     }
 
@@ -90,37 +135,84 @@ public class PIMCollection implements Collection{
     public boolean containsAll(Collection c) {
         Iterator iterator = c.iterator();
         while (iterator.hasNext()){
-            if (!contains(c))
+            try {
+                PIMEntity p = (PIMEntity) iterator.next();
+                if (!list.contains(p)) return false;
+            }catch (Exception e){
                 return false;
+            }
         }
-
         return true;
     }
 
     @Override
     public Object[] toArray(Object[] a) {
-//        list.toArray()
-        return new Object[0];
+        PIMEntity[] p;
+        Class cs = a.getClass();
+        p = (PIMEntity[]) Array.newInstance(cs,size);
+        for (int i = 0;i < size;i++)
+            p[i] = list.get(i);
+        return p;
     }
 
     public Collection getTodos(){
-        return null;
+        PIMCollection pimCollection = new PIMCollection();
+        for(PIMEntity p : list){
+            String[] a = p.toString().split("##");
+            if (a[0].equals("Type todo")) pimCollection.add(p);
+        }
+
+        return pimCollection;
     }
 
     public Collection getAppointments(){
-        return null;
+        PIMCollection pimCollection = new PIMCollection();
+        for(PIMEntity p : list){
+            String[] a = p.toString().split("##");
+            if (a[0].equals("Type appointment")) pimCollection.add(p);
+        }
+
+        return pimCollection;
     }
 
     public Collection getContact(){
-        return null;
+        PIMCollection pimCollection = new PIMCollection();
+        for(PIMEntity p : list){
+            String[] a = p.toString().split("##");
+            if (a[0].equals("Type contact")) pimCollection.add(p);
+        }
+
+        return pimCollection;
     }
 
     public Collection getNotes(){
-        return null;
+        PIMCollection pimCollection = new PIMCollection();
+
+        for(PIMEntity p : list){
+            String[] a = p.toString().split("##");
+            if (a[0].equals("Type note")) {
+                pimCollection.add(p);
+            }
+
+        }
+
+        return pimCollection;
     }
 
     public Collection getItemsForDate(Date d){
-        return null;
+        PIMCollection pimCollection = new PIMCollection();
+        for(PIMEntity p : list){
+            String[] a = p.toString().split("##");
+            if (a[0].equals("Type todo") || a[0].equals("Type appointment")){
+                String[] dates = d.toString().split(" ");
+                String[] dates1 = a[2].split(" ");
+                if (dates[1].equals(dates1[1]) && dates[2].equals(dates1[2]) && dates[5].equals(dates1[5]))
+                {
+                    pimCollection.add(p);
+                }
+            }
+        }
+        return pimCollection;
     }
 
 }

@@ -1,9 +1,11 @@
 package hw.second.part1;
 
+import hw.third.PIMCollection;
 import hw.third.dbOperate;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -27,6 +29,12 @@ public class executeCommand1 {
         else if (cmd.equalsIgnoreCase("save")) saveCmd(list);
         else if (cmd.equalsIgnoreCase("quit")) quitCmd();
         else if (cmd.equalsIgnoreCase("load")) loadCmd(list);
+        else if (cmd.equalsIgnoreCase("getNotes")) getNotes(list);
+        else if (cmd.equalsIgnoreCase("getTodos")) getTodos(list);
+        else if (cmd.equalsIgnoreCase("getAppointments")) getAppointments(list);
+        else if (cmd.equalsIgnoreCase("getContact")) getContact(list);
+        else if (cmd.equalsIgnoreCase("getItemsForDate")) getItemsForDate(list);
+
     }
     private void listCmd(LinkedList<PIMEntity> linkedList){
         //列出
@@ -58,7 +66,7 @@ public class executeCommand1 {
                 p = new PIMTodo();
                 System.out.println("Enter todo priority:");
                 s1.append("priority:" + in.nextLine());
-                System.out.println("Enter date for todo item:");
+                System.out.println("Enter date for todo item: (MM/dd/yyyy)");
                 s1.append("##date:" + in.nextLine());
                 System.out.println("Enter todo data:");
                 s1.append("##data:" + in.nextLine());
@@ -91,7 +99,7 @@ public class executeCommand1 {
                 p = new PIMAppointment();
                 System.out.println("Enter appointment priority:");
                 s1.append("priority:" + in.nextLine());
-                System.out.println("Enter appointment date:");
+                System.out.println("Enter appointment date: (MM/dd/yyyy)");
                 s1.append("##date:" + in.nextLine());
                 System.out.println("Enter appointment description:");
                 s1.append("##description:" + in.nextLine());
@@ -118,6 +126,7 @@ public class executeCommand1 {
             String type = a[0];
             int len = a[0].length();
             String data = p.toString().substring(len+2);
+//            System.out.println(type + " " + data);
             db.insert(type,data);
         }
         db.close();
@@ -166,5 +175,51 @@ public class executeCommand1 {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+    private void getNotes(LinkedList<PIMEntity> linkedList){
+        PIMCollection p = new PIMCollection();
+        p.addAll(linkedList);
+
+//        System.out.println(p.size());
+//        System.out.println("one: " + linkedList.size());
+
+        linkedList.clear();
+
+        linkedList.addAll(p.getNotes());
+
+//        System.out.println(p.getNotes().size());
+//        System.out.println("tow: " + linkedList.size());
+
+    }
+    private void getTodos(LinkedList<PIMEntity> linkedList){
+        PIMCollection p = new PIMCollection();
+        p.addAll(linkedList);
+        linkedList.clear();
+        linkedList.addAll(p.getTodos());
+    }
+    private void getAppointments(LinkedList<PIMEntity> linkedList){
+        PIMCollection p = new PIMCollection();
+        p.addAll(linkedList);
+        linkedList.clear();
+        linkedList.addAll(p.getAppointments());
+    }
+    private void getContact(LinkedList<PIMEntity> linkedList){
+        PIMCollection p = new PIMCollection();
+        p.addAll(linkedList);
+        linkedList.clear();
+        linkedList.addAll(p.getContact());
+    }
+    private void getItemsForDate(LinkedList<PIMEntity> linkedList){
+        PIMCollection p = new PIMCollection();
+        p.addAll(linkedList);
+        linkedList.clear();
+        Date d;
+        System.out.println("请输入时间 year month day");
+        Scanner in = new Scanner(System.in);
+        String date = in.nextLine();
+        String[] s = date.split(" ");
+        d = new Date(Integer.parseInt(s[0]) - 1900,Integer.parseInt(s[1]) - 1,Integer.parseInt(s[2]));
+//        System.out.println(d);
+        linkedList.addAll(p.getItemsForDate(d));
     }
 }

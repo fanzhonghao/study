@@ -21,12 +21,13 @@ public class dbInsert {
     public void insert(String type,String data){
         String sql = "insert into info values(?,?)";
         try {
+//            System.out.println("size: " + data.length());
             PreparedStatement preparedStatement = con.prepareStatement(sql);
             preparedStatement.setString(1,type);
             preparedStatement.setString(2,data);
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
-//            e.printStackTrace();
+            e.printStackTrace();
         }
     }
 }
