@@ -1,54 +1,30 @@
 package hw.second;
+import java.awt.Dimension;
 
-import hw.second.part3.DataButton;
+        import javax.swing.JFrame;
+        import javax.swing.JLabel;
+        import javax.swing.JPanel;
+        import javax.swing.JScrollPane;
 
-import javax.swing.*;
-import java.awt.*;
+public class test extends JFrame {
 
 
-/**
- * ----------------------
- *
- * @Author:fan
- * @Date: 18-5-23
- * Description:
- * <p>
- * -----------------------
- */
-public class test extends JFrame{
-    private DataButton[] dataButton;
-    private JComboBox yearBox;
-    private JComboBox monthBox;
-    private Color numButtonForegroudColor;
-    private Color numButtonBackgroudColor;
-    private Color weekDayNumButtonForegroundColor;
-    public test(){
-        numButtonBackgroudColor = Color.WHITE;
-        numButtonForegroudColor = Color.BLACK;
-        weekDayNumButtonForegroundColor = Color.RED;
-        setLayout(new FlowLayout());
-        String[] years = new String[50];//1970 - 2020
-        for (int i = 0;i < 50;i++)
-            years[i] = "" + (2019-i);
-        yearBox = new JComboBox(years);
-        String[] month = new String[12];
-        for (int i = 0;i < 12;i++)
-            month[i] = "" + (i+1);
-        monthBox = new JComboBox(month);
-        JPanel north = new JPanel();
-        JPanel bottom = new JPanel();
-        north.setLayout(new GridLayout(1,2,30,30));
-        north.add(yearBox,BorderLayout.WEST);
-        north.add(monthBox,BorderLayout.EAST);
-        north.setSize(400,20);
-        add(north);
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setVisible(true);
-        setBackground(Color.GRAY);
-        setSize(500,300);
-        setResizable(true);
+    public test() {
+        super("TestJScrollPane");
+        this.setLayout(null);
+        this.setBounds(200, 200, 200, 300);
+        JLabel label = new JLabel("深入浅出Java Swing 程序设计");
+        JPanel panel = new JPanel();
+        panel.add(label);
+        JScrollPane scrollPane = new JScrollPane(panel);
+        scrollPane.setBounds(100, 100, 100, 300);
+        panel.setPreferredSize(new Dimension(scrollPane.getWidth() - 50, scrollPane.getHeight()*2));
+        this.add(scrollPane);
+//        panel.revalidate(); //告诉其他部件,我的宽高变了
+        this.setVisible(true);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
     }
-
 
     public static void main(String[] args) {
         new test();

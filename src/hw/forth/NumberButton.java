@@ -1,5 +1,9 @@
 package hw.forth;
 
+
+import javax.swing.*;
+import java.awt.*;
+
 /**
  * ----------------------
  *
@@ -9,5 +13,14 @@ package hw.forth;
  * <p>
  * -----------------------
  */
-public class NumberButton {
+public class NumberButton extends JButton {
+    private int num;
+    public NumberButton(int num){
+        this.num = num;
+        this.setText("" + num);
+        this.setForeground(Color.BLACK);
+    }
+    public int getNum(){
+        return num;
+    }
 }

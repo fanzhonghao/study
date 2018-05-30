@@ -2,11 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c9d0fa2-842f-4bb2-bdb4-dc971813bede" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/EightQueen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/KnapsackProblemWithBackTrack.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/Test/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/Test/TypeTransform.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/Test/plusplus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/TestConstructorFunction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/TestConstructorFunction2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/TestConstructorFunction2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/TestConstructorFunction2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/TryAndFinally.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/TryFinallyTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/printName.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudyJava/test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Test/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Test/TypeTransform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Test/plusplus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestConstructorFunction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TestConstructorFunction2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TryFinallyTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hw/second/part3/BoxActionListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hw/second/part3/CreateNewPIMEntityPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hw/second/part3/DataButton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hw/second/part3/Panel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/hw/second/part3/SetButtonNum.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudyJava/algorithms/KnapsackProblemWithBackTrack$item.class" afterPath="$PROJECT_DIR$/out/production/StudyJava/algorithms/KnapsackProblemWithBackTrack$item.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudyJava/algorithms/KnapsackProblemWithBackTrack.class" afterPath="$PROJECT_DIR$/out/production/StudyJava/algorithms/KnapsackProblemWithBackTrack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudyJava/hw/second/part1/PIMAppointment.class" afterPath="$PROJECT_DIR$/out/production/StudyJava/hw/second/part1/PIMAppointment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudyJava/hw/second/part1/PIMContact.class" afterPath="$PROJECT_DIR$/out/production/StudyJava/hw/second/part1/PIMContact.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudyJava/hw/second/part1/PIMManager.class" afterPath="$PROJECT_DIR$/out/production/StudyJava/hw/second/part1/PIMManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudyJava/hw/second/part1/PIMTodo.class" afterPath="$PROJECT_DIR$/out/production/StudyJava/hw/second/part1/PIMTodo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudyJava/hw/second/part1/executeCommand1.class" afterPath="$PROJECT_DIR$/out/production/StudyJava/hw/second/part1/executeCommand1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudyJava/hw/third/PIMCollection.class" afterPath="$PROJECT_DIR$/out/production/StudyJava/hw/third/PIMCollection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudyJava/hw/third/dbInsert.class" afterPath="$PROJECT_DIR$/out/production/StudyJava/hw/third/dbInsert.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw/third/PIMCollection.java" afterPath="$PROJECT_DIR$/src/hw/third/PIMCollection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw/forth/ButtonListener.java" afterPath="$PROJECT_DIR$/src/hw/forth/ButtonListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw/forth/EqualSignActionListener.java" afterPath="$PROJECT_DIR$/src/hw/forth/EqualSignActionListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw/forth/NumberButton.java" afterPath="$PROJECT_DIR$/src/hw/forth/NumberButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw/forth/OperateButton.java" afterPath="$PROJECT_DIR$/src/hw/forth/OperateButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw/forth/Panel.java" afterPath="$PROJECT_DIR$/src/hw/forth/Panel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw/forth/SingleOperateActionListener.java" afterPath="$PROJECT_DIR$/src/hw/forth/SingleOperateActionListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw/forth/StringCal.java" afterPath="$PROJECT_DIR$/src/hw/forth/StringCal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw/second/part3/test.java" afterPath="$PROJECT_DIR$/src/hw/second/part3/test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hw/second/test.java" afterPath="$PROJECT_DIR$/src/hw/second/test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,38 +52,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="StudyJava" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KnapsackProblemWithBackTrack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/KnapsackProblemWithBackTrack.java">
+      <file leaf-file-name="Panel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hw/forth/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-37">
-              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EightQueen.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/EightQueen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KnapsackProblem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/KnapsackProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="132" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -74,57 +88,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hw/first/SumOfArgs.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/PIMEntity.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/PIMTodo.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/PIMNode.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/test.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/PIMNode.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/PIMEntity.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/listDemo.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/PIMTodo.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/PIMAppointment.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/PIMContact.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/PIMNote.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part3/part3.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part3/cal.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part3/callOperate.java" />
-        <option value="$PROJECT_DIR$/src/hw/first/Main.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part2/Substring.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/fileOperate.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/findShortestPath.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part3/CallOperate.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/filedemo.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/FindShortestPath.java" />
-        <option value="$PROJECT_DIR$/src/hw/third/dbConnect.java" />
-        <option value="$PROJECT_DIR$/src/hw/third/dbQuery.java" />
-        <option value="$PROJECT_DIR$/src/hw/third/dbOperate.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/executeCommand.java" />
-        <option value="$PROJECT_DIR$/src/Test/rmiTest.java" />
-        <option value="$PROJECT_DIR$/src/Test/rmiSkeleton.java" />
-        <option value="$PROJECT_DIR$/src/Test/Client.java" />
-        <option value="$PROJECT_DIR$/src/Test/rmiStub.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/PriorityQueue.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part3/Cal.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/PIMManager.java" />
-        <option value="$PROJECT_DIR$/src/hw/second/part1/executeCommand1.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/Merger_sort.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/Quick_sort.java" />
-        <option value="$PROJECT_DIR$/src/Test/Main.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/DivAndConDemo.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/LCS.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/MatrixChain.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/LCSubstring.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/MaxSum.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/ShortestPath.java" />
-        <option value="$PROJECT_DIR$/src/hw/third/dbInsert.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/KnapsackProblem.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/schedulingProblem.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/AllPairsShortestPathes.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/BellmanFord.java" />
+        <option value="$PROJECT_DIR$/src/hw/forth/StringCal.java" />
+        <option value="$PROJECT_DIR$/src/hw/forth/EqualSignActionListener.java" />
+        <option value="$PROJECT_DIR$/src/hw/forth/ButtonListener.java" />
+        <option value="$PROJECT_DIR$/src/hw/forth/SingleOperateActionListener.java" />
+        <option value="$PROJECT_DIR$/src/hw/forth/Panel.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/DataButten.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/DataButton.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/YearBoxActionListener.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/MonthBoxActionListener.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/test.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/BoxActionListener.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/SetButtonNum.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/CreateNewPIMEntityPanel.java" />
         <option value="$PROJECT_DIR$/src/hw/third/PIMCollection.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/EightQueen.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/KnapsackProblemWithBackTrack.java" />
+        <option value="$PROJECT_DIR$/src/hw/third/PIMCollectionTest.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/Panel.java" />
+        <option value="$PROJECT_DIR$/src/Test/PanelChangeTest2.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/functionalPage/PanelChangeTest2.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/functionalPage/LogInPage.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/CalenderPanel.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/functionalPage/actionListener/LonInActionListener.java" />
+        <option value="$PROJECT_DIR$/src/hw/third/dbConnect.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/dbOperate/DBoperate.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part3/DBoperate.java" />
+        <option value="$PROJECT_DIR$/src/exerice/newPIM/PIMEntity.java" />
+        <option value="$PROJECT_DIR$/src/exerice/newPIM/RemotePIMCollection.java" />
+        <option value="$PROJECT_DIR$/src/exerice/newPIM/PIMContact.java" />
+        <option value="$PROJECT_DIR$/src/exerice/newPIM/PIMTodo.java" />
+        <option value="$PROJECT_DIR$/src/exerice/newPIM/PIMNote.java" />
+        <option value="$PROJECT_DIR$/src/exerice/newPIM/PIMAppointment.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/part1/PIMSave.java" />
+        <option value="$PROJECT_DIR$/src/exerice/newPIM/PIMSave.java" />
+        <option value="$PROJECT_DIR$/src/exerice/PIMTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/PanelChangeTest.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/functionalPage/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/src/exerice/PIMCollectionTest.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/functionalPage/LogInPage.java" />
+        <option value="$PROJECT_DIR$/src/exerice/newPIM/PIMDelete.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/BoxActionListener.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/SetButtonNum.java" />
+        <option value="$PROJECT_DIR$/src/hw/second/test.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/functionalPage/SetButtonForegroundColor.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/functionalPage/actionListener/DateEventListener.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/CreateNewPIMEntityPanel.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/functionalPage/ShowItemsPage.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/CalenderPanel.java" />
+        <option value="$PROJECT_DIR$/src/exerice/dbOperate/DBoperate.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/functionalPage/actionListener/ShowItemActionListener.java" />
+        <option value="$PROJECT_DIR$/src/exerice/newPIM/PIMCollection.java" />
+        <option value="$PROJECT_DIR$/src/exerice/calPanel/functionalPage/actionListener/ItemClickEventListener.java" />
+        <option value="$PROJECT_DIR$/src/Test/test.java" />
       </list>
     </option>
   </component>
@@ -135,10 +149,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="237" />
-    <option name="y" value="88" />
-    <option name="width" value="1360" />
-    <option name="height" value="744" />
+    <option name="x" value="-6" />
+    <option name="y" value="-6" />
+    <option name="width" value="1356" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -155,6 +169,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,27 +189,65 @@
               <item name="StudyJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudyJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudyJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="EightQueen.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="forth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="part3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="third" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudyJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudyJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SemaphoreDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -210,15 +266,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KnapsackProblemWithBackTrack">
-    <configuration name="AllPairsShortestPathes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Panel">
+    <configuration name="CalenderPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="exerice.calPanel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithms.AllPairsShortestPathes" />
+      <option name="MAIN_CLASS_NAME" value="exerice.calPanel.CalenderPanel" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -230,14 +286,14 @@
       <module name="StudyJava" />
       <envs />
     </configuration>
-    <configuration name="BellmanFord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PIMCollectionTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="hw.third.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithms.BellmanFord" />
+      <option name="MAIN_CLASS_NAME" value="hw.third.PIMCollectionTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -249,14 +305,14 @@
       <module name="StudyJava" />
       <envs />
     </configuration>
-    <configuration name="EightQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PIMCollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="exerice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithms.EightQueen" />
+      <option name="MAIN_CLASS_NAME" value="exerice.PIMCollectionTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -268,33 +324,14 @@
       <module name="StudyJava" />
       <envs />
     </configuration>
-    <configuration name="KnapsackProblemWithBackTrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Panel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="hw.forth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithms.KnapsackProblemWithBackTrack" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="StudyJava" />
-      <envs />
-    </configuration>
-    <configuration name="PIMManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hw.second.part1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="hw.second.part1.PIMManager" />
+      <option name="MAIN_CLASS_NAME" value="hw.forth.Panel" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -387,20 +424,39 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Test.test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="StudyJava" />
+      <envs />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PIMManager" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AllPairsShortestPathes" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BellmanFord" />
-      <item index="3" class="java.lang.String" itemvalue="Application.KnapsackProblemWithBackTrack" />
-      <item index="4" class="java.lang.String" itemvalue="Application.EightQueen" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CalenderPanel" />
+      <item index="1" class="java.lang.String" itemvalue="Application.test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PIMCollectionTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PIMCollectionTest (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Panel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.KnapsackProblemWithBackTrack" />
-        <item index="1" class="java.lang.String" itemvalue="Application.EightQueen" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PIMManager" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BellmanFord" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AllPairsShortestPathes" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Panel" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CalenderPanel" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PIMCollectionTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PIMCollectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -482,11 +538,36 @@
       <workItem from="1526478390925" duration="47000" />
       <workItem from="1526482134608" duration="60000" />
       <workItem from="1526712345685" duration="11162000" />
+      <workItem from="1526735059274" duration="26000" />
+      <workItem from="1526901059810" duration="11565000" />
+      <workItem from="1526974876646" duration="2824000" />
+      <workItem from="1526985304914" duration="1001000" />
+      <workItem from="1526986583972" duration="10869000" />
+      <workItem from="1527001802765" duration="864000" />
+      <workItem from="1527048727143" duration="1741000" />
+      <workItem from="1527058004628" duration="23143000" />
+      <workItem from="1527084679996" duration="2811000" />
+      <workItem from="1527135116075" duration="1284000" />
+      <workItem from="1527138622612" duration="4716000" />
+      <workItem from="1527163555593" duration="1865000" />
+      <workItem from="1527320107468" duration="44963000" />
+      <workItem from="1527403736666" duration="76000" />
+      <workItem from="1527412396545" duration="73000" />
+      <workItem from="1527420603992" duration="201000" />
+      <workItem from="1527424794258" duration="205000" />
+      <workItem from="1527428626704" duration="53000" />
+      <workItem from="1527469899142" duration="48898000" />
+      <workItem from="1527522595885" duration="183000" />
+      <workItem from="1527550679254" duration="2389000" />
+      <workItem from="1527553481118" duration="3793000" />
+      <workItem from="1527560046792" duration="892000" />
+      <workItem from="1527575144393" duration="2273000" />
+      <workItem from="1527668577170" duration="993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188217000" />
+    <option name="totallyTimeSpent" value="355918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,7 +579,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-6" width="1360" height="774" extended-state="6" />
+    <frame x="-6" y="-6" width="1362" height="780" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -508,19 +589,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37616098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06811146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21276596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30927053" sideWeight="0.845098" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2819149" sideWeight="0.15490197" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -542,20 +623,20 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23328267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.91486067" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2955927" sideWeight="0.845098" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2819149" sideWeight="0.15490197" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,323 +650,398 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="8" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/jdk/src.zip!/java/util/Date.java">
+    <entry file="file://$PROJECT_DIR$/src/hw/third/dbOperate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="130" column="13" lean-forward="false" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/fan.dat" />
-    <entry file="jar://$USER_HOME$/jdk/src.zip!/java/io/ObjectOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="341" column="22" lean-forward="false" selection-start-line="341" selection-start-column="22" selection-end-line="341" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/first/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part2/Substring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/filedemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part3/CallOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/fileOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/third.java" />
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMContact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMAppointment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/listDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/executeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="105" column="19" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="109" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/fan.txt" />
-    <entry file="file://$PROJECT_DIR$/src/Test/rmiStub.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test/rmiSkeleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test/Client.java" />
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part3/Cal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMTodo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hw/third/dbQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/DivAndConDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/Quick_sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/PriorityQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="399">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hw/third/dbConnect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="75" lean-forward="false" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/executeCommand1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="135" column="13" lean-forward="false" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/third/dbOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/LCS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/FindShortestPath.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/MatrixChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/LCSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/ShortestPath.class" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/MaxSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="264">
+          <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hw/third/dbInsert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="375">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/ShortestPath.java">
+    <entry file="file://$PROJECT_DIR$/src/hw/second/part3/Cal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="110" column="6" lean-forward="false" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
+        <state relative-caret-position="-690">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/AllPairsShortestPathes.java">
+    <entry file="file://$PROJECT_DIR$/src/hw/exercise/dbOperate/calPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/hw/second/part3/CallOperate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/BellmanFord.java">
+    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+        <state relative-caret-position="240">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/schedulingProblem.java">
+    <entry file="file://$PROJECT_DIR$/src/exerice/newPIM/PIMEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        <state relative-caret-position="315">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/jdk/src.zip!/java/util/Collection.java">
+    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/executeCommand1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4620">
-          <caret line="333" column="41" lean-forward="false" selection-start-line="333" selection-start-column="41" selection-end-line="333" selection-end-column="41" />
+        <state relative-caret-position="150">
+          <caret line="143" column="25" lean-forward="false" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/jdk/src.zip!/java/util/AbstractCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMNote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4320">
-          <caret line="315" column="49" lean-forward="false" selection-start-line="315" selection-start-column="49" selection-end-line="315" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="80">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/jdk/src.zip!/java/util/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMContact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1070" column="60" lean-forward="false" selection-start-line="1070" selection-start-column="60" selection-end-line="1070" selection-end-column="60" />
-          <folding>
-            <element signature="e#12507#12537#1" expanded="false" />
-            <element signature="e#29927#29957#0" expanded="false" />
-            <element signature="e#33534#33564#0" expanded="false" />
-            <element signature="e#34891#34921#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMAppointment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMSave.java" />
+    <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMTodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/PanelChangeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/jdk/src.zip!/java/awt/Dimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="97" column="11" lean-forward="false" selection-start-line="97" selection-start-column="11" selection-end-line="97" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/functionalPage/LogInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="136" column="39" lean-forward="false" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hw/second/part1/PIMManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="114">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/newPIM/PIMSave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/newPIM/PIMDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/newPIM/PIMNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/functionalPage/RegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/newPIM/PIMTodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/newPIM/PIMContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/newPIM/PIMAppointment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/jdk/src.zip!/javax/swing/AbstractButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="1936" column="16" lean-forward="false" selection-start-line="1936" selection-start-column="16" selection-end-line="1936" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/PIMTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/CreateNewPIMEntityPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="64" column="42" lean-forward="false" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/dbOperate/DBoperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="46" column="89" lean-forward="false" selection-start-line="46" selection-start-column="89" selection-end-line="46" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/newPIM/RemotePIMCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hw/third/PIMCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/exerice/PIMCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="101" column="17" lean-forward="false" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/BoxActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/jdk/jre/lib/rt.jar!/sun/awt/image/ImageWatched.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/jdk/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/newPIM/PIMCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding>
-            <element signature="method#isEmpty#0;class#PIMCollection#0" expanded="false" />
-            <element signature="method#toArray#0;class#PIMCollection#0" expanded="false" />
-            <element signature="method#removeAll#0;class#PIMCollection#0" expanded="false" />
-            <element signature="method#containsAll#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#PIMCollection#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getNotes#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getNotes#1;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getTodos#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getTodos#1;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getAppointments#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getAppointments#1;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getContacts#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getContacts#1;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getItemsForDate#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getItemsForDate#1;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getAll#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getAllByOwner#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#add#1;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getPIMItem#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getPIMCollection#0;class#PIMCollection#0" expanded="false" />
+            <element signature="method#getPIMCollection#1;class#PIMCollection#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/Merger_sort.java">
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/functionalPage/SetButtonForegroundColor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="53">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/DataButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/KnapsackProblem.java">
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/SetButtonNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="132" selection-end-column="1" />
+        <state relative-caret-position="420">
+          <caret line="79" column="57" lean-forward="false" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/KnapsackProblemWithBackTrack.java">
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/functionalPage/ShowItemsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="1495">
+          <caret line="173" column="43" lean-forward="true" selection-start-line="173" selection-start-column="43" selection-end-line="173" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/functionalPage/actionListener/DateEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="47" lean-forward="true" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/EightQueen.java">
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/functionalPage/actionListener/ShowItemActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="795">
+          <caret line="195" column="41" lean-forward="false" selection-start-line="195" selection-start-column="41" selection-end-line="195" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/functionalPage/actionListener/LonInActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/functionalPage/actionListener/ItemClickEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="106" column="22" lean-forward="false" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/second/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/third/PIMCollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="67" column="44" lean-forward="true" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/third/PIMCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/second/part3/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exerice/calPanel/CalenderPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hw/forth/Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

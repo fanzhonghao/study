@@ -1,5 +1,8 @@
 package hw.forth;
 
+import javax.swing.*;
+import java.awt.*;
+
 /**
  * ----------------------
  *
@@ -9,5 +12,15 @@ package hw.forth;
  * <p>
  * -----------------------
  */
-public class OperateButton {
+public class OperateButton extends JButton{
+    private String operate;
+    public OperateButton(String operate){
+        this.operate = operate;
+//        this.setFont(new Font("微软雅黑",Font.BOLD,16));
+        this.setText("" + operate);
+        this.setForeground(Color.BLACK);
+    }
+    public String getOperate(){
+        return operate;
+    }
 }
